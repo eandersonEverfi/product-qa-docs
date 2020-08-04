@@ -1,0 +1,25 @@
+{
+  "name": "product-qa-docs",
+  "version": "1.0.0",
+  "description": "Product QA Documentation",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eandersonEverfi/product-qa-docs.git"
+  },
+  "author": "Erik Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eandersonEverfi/product-qa-docs/issues"
+  },
+  "homepage": "https://github.com/eandersonEverfi/product-qa-docs#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.1"
+  }
+}
