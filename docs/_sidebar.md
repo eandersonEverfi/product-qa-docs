@@ -8,6 +8,7 @@
  - [buttonBlock](buttonBlock.md)
  - [calculation](calculation.md)
  - [card](card.md)
+ - [chart](chart.md)
  - [carousel](carousel.md)
  - [codeSnippet](codeSnippet.md)
  - [deviceFrames](deviceFrames.md)
