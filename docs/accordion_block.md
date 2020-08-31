@@ -4,8 +4,8 @@ Type: Functional, Visual
 
 <!-- include: cypress/integration/accordion_block.js -->
 
-TEST\
-ALP-163:
+### ALP-163
+
 GIVEN: The accordion page loads\
 WHEN: The accordion is in its default state\
 THEN: All accordion nodes are closed by default
