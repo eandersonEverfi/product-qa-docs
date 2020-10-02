@@ -3,4 +3,10 @@
 Type: Visual  
 
 <!-- include: cypress/integration/deviceFrames.js -->
+
+COM-2014
+GIVEN: The Device Frame component page loads\
+WHEN: An Applitools visual test is engaged\
+THEN: The baseline screengrab will match the running test's snapshot
+
 <!-- /include: cypress/integration/deviceFrames.js -->

@@ -3,4 +3,11 @@
 Type: Visual
 
 <!-- include: cypress/integration/calloutCard.js -->
+
+waiting for SVG assets
+
+waiting for all callout cards
+
+visual verification test
+
 <!-- /include: cypress/integration/calloutCard.js -->
