@@ -7,8 +7,8 @@ Type: Visual
 ### COM-1219
 
 Card - Card Component Visual Check\
-GIVEN: The Card component page loads\
-WHEN: An Applitools visual test is engaged\
-THEN: The baseline screengrab will match the running test's snapshot
+GIVEN- The Card component page loads\
+WHEN- An Applitools visual test is engaged\
+THEN- The baseline screengrab will match the running test's snapshot
 
 <!-- /include: cypress/integration/card.js -->

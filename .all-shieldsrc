@@ -1,0 +1,23 @@
+{
+	"files": [
+		"docs/_coverpage.md",
+        "docs/README.md"
+	],
+	"shields": [
+		{
+			"id": "my-badges",
+			"badges": [
+				{
+					"url": "https://github.com/EverFi/product-qa-automation",
+					"color": "lightgray",
+					"label": "BS2 Release",
+					"title": "BS2 Release",
+					"message": "1.7.0",
+					"style": "flat",
+					"logo": "",
+					"platform": "shields"
+				}
+			]
+		}
+	]
+}
