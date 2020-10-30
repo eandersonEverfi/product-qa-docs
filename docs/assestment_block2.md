@@ -130,7 +130,7 @@ visual check -  User gets the final feedback score = 0
 GIVEN: The user loads the Assessment 2 component\
 WHEN: The user 2 out of 3 correct\
 THEN: The user will get incremental feedback about the correctness of their option choices on each assessment page\
-THEN: The user will get a failing score of `66.66666666666666` on the conclusion page
+THEN: The user will get a failing score of `66.67` on the conclusion page
 
 verifying page subtitle
 
@@ -169,6 +169,6 @@ THEN:Each of these feedback messages will be specific to the questions the user 
 
 user final score
 
-visual check - User gets the final feedback score = 66.66666666666666
+visual check - User gets the final feedback score = 66.67
 
 <!-- /include: cypress/integration/assestment_block2.js -->

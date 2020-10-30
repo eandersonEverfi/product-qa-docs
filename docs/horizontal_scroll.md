@@ -36,8 +36,8 @@ AND: User can interact with embdeed content within the scrollable area
 
 With Cards version
 By default\
-The right edge button will be hidden\
-The left edge button will be hidden
+The right edge button will be visible\
+The left edge button will not be visible
 
 The ebedded content has cards that have the following copy
 (1) Card Title\
@@ -50,7 +50,7 @@ Visual check Default view of With Cards version
 user scrolls the With Cards version to the right
 
 post scrolling to the right
-The right edge button will be hidden\
+The right edge button will not be visible\
 The left edge button will be visible
 
 Visual check Post right scrolling view of With Cards version
@@ -59,7 +59,7 @@ Scrolling the With Cards version to the left
 
 post scrolling to the left
 The right edge button will be visible\
-The left edge button will be hidden
+The left edge button will not be visible
 
 GIVEN:The user clicks a modal "Learn More" link
 WHEN:The modal opens and become visible to the user\
