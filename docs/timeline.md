@@ -2,7 +2,7 @@
 > Test Set: [ALP-299](https://everfi.atlassian.net/browse/ALP-299)    
 Type: Visual
 
-<!-- include: cypress/integration/timeline.js -->
+<!-- include: cypress/integration/blacksmith/timeline.js -->
 
 ### ALP-x1
 
@@ -11,4 +11,4 @@ GIVEN: The Timeline Component page loads\
 WHEN: An Applitools visual test is engaged\
 THEN: The baseline screengrab will match the running test's snapshot
 
-<!-- /include: cypress/integration/timeline.js -->
+<!-- /include: cypress/integration/blacksmith/timeline.js -->

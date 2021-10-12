@@ -2,7 +2,7 @@
 > Test Set: [ALP-288](https://everfi.atlassian.net/browse/ALP-288)    
 Type: Visual  
 
-<!-- include: cypress/integration/labelBlock.js -->
+<!-- include: cypress/integration/blacksmith/labelBlock.js -->
 
 ### ALP-x1
 
@@ -11,4 +11,4 @@ GIVEN: The label block component page loads\
 WHEN: An Applitools visual test is engaged\
 THEN: The baseline screengrab will match the running test's snapshot
 
-<!-- /include: cypress/integration/labelBlock.js -->
+<!-- /include: cypress/integration/blacksmith/labelBlock.js -->

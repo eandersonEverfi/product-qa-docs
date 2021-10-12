@@ -2,7 +2,7 @@
 > Test Set: [ALP-148](https://everfi.atlassian.net/browse/ALP-148)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/popover.js -->
+<!-- include: cypress/integration/blacksmith/popover.js -->
 
 ### ALP 129
 
@@ -77,4 +77,4 @@ post click - popover window is not visible
 
 visual check -  User clicks outside of the Top popover, and the popover window gets closed
 
-<!-- /include: cypress/integration/popover.js -->
+<!-- /include: cypress/integration/blacksmith/popover.js -->

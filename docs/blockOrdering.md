@@ -2,7 +2,7 @@
 > Test Set: [ALP-292](https://everfi.atlassian.net/browse/ALP-292)  
 Type: Functional, Visual   
 
-<!-- include: cypress/integration/blockOrdering.js -->
+<!-- include: cypress/integration/blacksmith/blockOrdering.js -->
 
 ### ALP-x1
 
@@ -39,4 +39,4 @@ THEN- User will be presented with a success alert indicating that 'This page has
 
 visual check -  After clicking button 2
 
-<!-- /include: cypress/integration/blockOrdering.js -->
+<!-- /include: cypress/integration/blacksmith/blockOrdering.js -->

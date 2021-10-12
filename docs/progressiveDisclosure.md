@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [COM-2821](https://everfi.atlassian.net/browse/COM-2821)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/progressiveDisclosure.js -->
+<!-- include: cypress/integration/blacksmith/progressiveDisclosure.js -->
 
 ### COM-2821
 
@@ -38,7 +38,7 @@ waiting for outer component container
 
 waiting for SVG elements
 
-Navigating to page 2 by clickign the NEXT button
+Navigating to page 1 by clickign the NEXT button two times
 
 NEXT button is NOT disabled
 
@@ -61,7 +61,7 @@ waiting for outer component container
 
 waiting for SVG elements
 
-Navigating to page 3 by clicking the NEXT button - twice
+Navigating to page 2 by clicking the NEXT button - three times
 
 NEXT button for both clicks should NOT be disabled
 
@@ -188,4 +188,4 @@ waiting for chat cards 1+2+3 to be visible
 
 visual check -  Bottom- State 3 view/page 3
 
-<!-- /include: cypress/integration/progressiveDisclosure.js -->
+<!-- /include: cypress/integration/blacksmith/progressiveDisclosure.js -->

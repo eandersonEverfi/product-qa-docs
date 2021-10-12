@@ -2,7 +2,9 @@
 > Dev implemntation ticket: [COM-2819](https://everfi.atlassian.net/browse/COM-2819)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/quiz.js -->
+<!-- include: cypress/integration/blacksmith/quiz.js -->
+
+clicking the Finish button
 
 ### COM-2819
 
@@ -12,8 +14,8 @@ WHEN- The user selects the correct answer on all three pages\
 THEN- The user gets a 100% passing grade on the conclusion page
 
 user selects on each of the three quiz pages
-page1- radio 1 --> correct\
-Page2- radio 2 --> correct\
+page1- radio 1 --> correct
+Page2- radio 2 --> correct
 Page3- radio 1 --> correct
 
 User is presented with the conclusion page with a perfect grade
@@ -40,8 +42,8 @@ WHEN- The user answers the quiz with 1 out of 3 answers being correct\
 THEN- The user gets a `33.33% failing grade on the conclusion page
 
 user selects on each of the three quiz pages
-page1- radio 1 --> correct\
-Page2- radio 2 --> incorrect\
+page1- radio 1 --> correct
+Page2- radio 2 --> incorrect
 Page3- radio 1 --> incorrect
 
 User is presented with the conclusion page with a failed grade
@@ -70,4 +72,4 @@ verifying page subtitle
 
 verifying page x of y counter
 
-<!-- /include: cypress/integration/quiz.js -->
+<!-- /include: cypress/integration/blacksmith/quiz.js -->

@@ -2,7 +2,7 @@
 > Test Set: [ALP-125](https://everfi.atlassian.net/browse/ALP-125)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/inputBlock.js -->
+<!-- include: cypress/integration/blacksmith/inputBlock.js -->
 
 ### ALP-149
 
@@ -170,4 +170,4 @@ GIVEN: The 'Select option input' component loads\
 WHEN: The user selects an option from the select-dropdown field\
 THEN: The chosen option gets selected
 
-<!-- /include: cypress/integration/inputBlock.js -->
+<!-- /include: cypress/integration/blacksmith/inputBlock.js -->

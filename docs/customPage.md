@@ -2,7 +2,7 @@
 > Dev implemntation ticket: COM-xx  
 Type: Visual
 
-<!-- include: cypress/integration/customPage.js -->
+<!-- include: cypress/integration/blacksmith/customPage.js -->
 
 ### COM-x1
 
@@ -29,4 +29,4 @@ user clicks on the 'Next' link
 
 user is taken to the 'custom-page' page
 
-<!-- /include: cypress/integration/customPage.js -->
+<!-- /include: cypress/integration/blacksmith/customPage.js -->

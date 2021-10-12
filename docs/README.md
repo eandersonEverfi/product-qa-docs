@@ -1,15 +1,23 @@
 
-Within the leftside navigation--contains the individual components of Blacksmith 2, with Test Cases 
-pulled directly from the automation code, itself.
+# Cypress + Applitools
 
-Test Cases cover BlackSmith release version
-<!-- all-shields/my-badges:START -->
-[![BS2 Release](https://img.shields.io/badge/BS2%20Release-1.7.0-lightgray.svg?style=flat&logo=)](https://github.com/EverFi/product-qa-automation) 
-<!-- all-shields/my-badges:END -->
+This project will be used to do Visual Testing of the Blacksmith2 components, using Cypress and Applitools
 
-### Workflow from code comment to Test Case Documentation
+## Getting Started
 
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://app.lucidchart.com/documents/embeddedchart/fec47830-4fe1-4dbf-8591-c4d3ea08c865" id="PygjTmLSUN0i"></iframe></div>
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+### Install Npm Packages
 
+Install Cypress and Applitools Eyes
+```
+cd cypress
+npm install 
+
+```
+
+## Running the tests
+
+To run the tests you can launch the Cypress runner using npm run cypress, and then run each spec.
+Also you can use npm run cypress:allure, and this will run all specs and will give us the Allure Report
 

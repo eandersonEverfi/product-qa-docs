@@ -2,7 +2,7 @@
 > Test Set: [ALP-298](https://everfi.atlassian.net/browse/ALP-298)    
 Type: Visual
 
-<!-- include: cypress/integration/textBlock.js -->
+<!-- include: cypress/integration/blacksmith/textBlock.js -->
 
 ### ALP-x1
 
@@ -11,4 +11,4 @@ GIVEN: The text block component page loads\
 WHEN: An Applitools visual test is engaged\
 THEN: The baseline screengrab will match the running test's snapshot
 
-<!-- /include: /cypress/integration/textBlock.js -->
+<!-- /include: /cypress/integration/blacksmith/textBlock.js -->

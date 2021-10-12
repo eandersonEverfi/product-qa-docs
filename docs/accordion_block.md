@@ -2,7 +2,7 @@
 > Test Set: [ALP-162](https://everfi.atlassian.net/browse/ALP-162)   
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/accordion_block.js -->
+<!-- include: cypress/integration/blacksmith/accordion_block.js -->
 
 ### ALP-163 - accordion > all accordions node are closed by default
 
@@ -15,14 +15,14 @@ THEN: All accordion nodes are closed by default
 WHEN: A closed node is clicked on\
 THEN: That node expands\
 
-after expanding first node - waiting for accordion node to have max-height of  576px
+after expanding first node - waiting for accordion node to have max-height of  544px
 
 ### ALP-165 - accordion > clicking on an open accordion node closes that clicked node
 
 WHEN: An open accordion node is cliked on\
 THEN: That clicked node closes
 
-after expanding first node - waiting for accordion node to have max-height of  576px
+after expanding first node - waiting for accordion node to have max-height of  544px
 
 ### ALP-166 - accordion > only one accordion node can be opened at a time
 
@@ -33,23 +33,23 @@ THEN: The user Clicks on another accordion node\
 THEN: The first accordion node closes\
 AND: The second accordion node expands
 
-after expanding first node - waiting for accordion node to have max-height of  576px
+after expanding first node - waiting for accordion node to have max-height of  544px
 
-waitng for expanded node elemsnts button 1 and 2
+waitng for expanded node elements button 1 and 2
 
 ### ALP-167 - accordion > expanding an accordion node adds a check mark to this node on opening
 
 WHEN: A user clicks on an accordion node\
 THEN: That clicked on node gets a checkmark icon\
 
-after expanding first node - waiting for accordion node to have max-height of  576px
+after expanding first node - waiting for accordion node to have max-height of  544px
 
 ### ALP-168 - accordion > Upon expanding an accordion node the user sees this node's unique content
 
 WHEN: the user clicks on an accordion node\
 THEN: the user sees that node's unique content exposed
 
-after expanding first node - waiting for accordion node to have max-height of  576px
+after expanding first node - waiting for accordion node to have max-height of  544px
 
 ### COM-1853 - accordion - all stepper accordion nodes are closed by default
 
@@ -83,4 +83,4 @@ veriyfing that the last stepper node is closed
 
 verifying there a total of 2 checkmarks
 
-<!-- /include: cypress/integration/accordion_block.js -->
+<!-- /include: cypress/integration/blacksmith/accordion_block.js -->

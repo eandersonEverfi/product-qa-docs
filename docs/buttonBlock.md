@@ -3,7 +3,7 @@
 > Test Set: [ALP-330](https://everfi.atlassian.net/browse/ALP-330)  
 Type: Functional, Visual    
 
-<!-- include: cypress/integration/buttonBlock.js -->
+<!-- include: cypress/integration/blacksmith/buttonBlock.js -->
 
 ### button block - Rolling over the button produces a tooltip
 
@@ -15,9 +15,10 @@ visual check -  Default State
 
 makes sure the  button with tooltip is centered verticall in the viewport
 
-verifying that the tooltip  is displayed post rollover
+force = true prevent scrolling so the tippy is on the right side of the button
 
-waiting for the position of the presented tooltip is in its final state before continuing with the test
+waiting for the position of the presented tooltip is in its final
+state before continuing with the test
 
 visual check -  After btn rollover
 
@@ -35,8 +36,6 @@ visual check -  Default state Required Button Container
 visual check -  Default state Next Button
 
 the default state of the Next button should be disabled
-
-clicking the Required Button
 
 modal should present
 
@@ -91,4 +90,4 @@ clicking button causes the checkmark to be visible and class indicates a clicked
 
 Button Using Hide Until Clicked
 
-<!-- /include: cypress/integration/buttonBlock.js -->
+<!-- /include: cypress/integration/blacksmith/buttonBlock.js -->

@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [COM-2799](https://everfi.atlassian.net/browse/COM-2799)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/switch.js -->
+<!-- include: cypress/integration/blacksmith/switch.js -->
 
 ### COM-2799
 
@@ -69,4 +69,4 @@ waiting for SVGs to be visible
 
 Visual Check -  radio button 3 - after selection - expected content is shown
 
-<!-- /include: cypress/integration/switch.js -->
+<!-- /include: cypress/integration/blacksmith/switch.js -->

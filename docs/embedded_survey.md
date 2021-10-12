@@ -2,38 +2,38 @@
 > Test Set: [ALP-118](https://everfi.atlassian.net/browse/ALP-118)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/embedded_survey.js -->
+<!-- include: cypress/integration/blacksmith/embedded_survey.js -->
 
 ### ALP-152
 
 embedded survey > by default the form submit button is in a deactivated state\
 GIVEN: The embedded survey component loads\
-THEN: By default the 'submit' button is a deactivated state
+THEN: By default the 'submit' button is a deactivated state.
 
-Next and Send buttons should be diabled
+Next and Submit buttons should be diabled
 
-visual check by default the 'send' button is in a deactivated state
+visual check by default the 'submit' button is in a deactivated state
 
 ### ALP-153
 
-embedded survey > After the user selects all required fields the send button is in its active state\
+embedded survey > After the user selects all required fields the Submit button is in its active state\
 GIVEN: The embedded survey component loads\
 WHEN: All required fields are selected\
-THEN: The 'send' button is in an active state
+THEN: The 'Submit' button is in an active state
 
-Next and Send buttons should be diabled
+Next and Submit buttons should be diabled
 
-visual check - by default the 'send' button is in a deactivated state
+visual check - by default the 'Submit' button is in a deactivated state
 
 user clicks the first radio button option in the frist group
 
 user clicks the first radio button option in the second group
 
-send button is now active
+Submit button is now active
 
 Next button is in a deactivated state
 
-visual check - post required fields selected -  'Send' button is in activated state
+visual check - post required fields selected -  'Submit' button is in activated state
 
 ### ALP-154
 
@@ -43,26 +43,26 @@ WHEN: All required fields are selected\
 THEN: The user is able to submit the survey form\
 THEN: After the form is submitted the Next button becomes active
 
-Next and Send buttons should be diabled
+Next and Submit buttons should be diabled
 
-visual check by defaulty the 'send' button is in a deactivated state
+visual check by defaulty the 'Submit' button is in a deactivated state
 
 user clicks the first radio button option in the frist group
 
 user clicks the first radio button option in the second group
 
-send button is now active
+Submit button is now active
 
 Next button is in a deactivated state
 
-visual check post required fields selected -  'Send' button is in activated state
+visual check post required fields selected -  'Submit' button is in activated state
 
-User clicks the active-state 'send' button
+User clicks the active-state 'Submit' button
 
-send button is now disabled
+Submit button is now disabled
 
 Next button is now active
 
-Visual Check Post clicking 'send' buitton - Form is submitted
+Visual Check Post clicking 'Submit' buitton - Form is submitted
 
-<!-- /include: cypress/integration/embedded_survey.js -->
+<!-- /include: cypress/integration/blacksmith/embedded_survey.js -->

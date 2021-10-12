@@ -2,7 +2,7 @@
 > Test Set: [ALP-131](https://everfi.atlassian.net/browse/ALP-131)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/optional_reading_block.js -->
+<!-- include: cypress/integration/blacksmith/optional_reading_block.js -->
 
 ### ALP-132
 
@@ -54,4 +54,4 @@ user clicks the Close button
 
 post click of the Close button - user verifies that the Modal Window has been closed from view
 
-<!-- /include: cypress/integration/optional_reading_block.js -->
+<!-- /include: cypress/integration/blacksmith/optional_reading_block.js -->

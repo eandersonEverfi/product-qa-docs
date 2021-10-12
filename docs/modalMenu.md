@@ -2,7 +2,7 @@
 > Test Set: [ALP-290](https://everfi.atlassian.net/browse/ALP-290)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/modalMenu.js -->
+<!-- include: cypress/integration/blacksmith/modalMenu.js -->
 
 ### ALP-x1
 
@@ -43,9 +43,9 @@ footer's class remains unchanged =  'not-attempted'
 
 ### Post-Click - progress bar updates to  'width
 
-51%;'
+59%;'
 
-Post-Click - Left Nav bar indicates completion states of pages by adding 41 check marks
+Post-Click - Left Nav bar indicates completion states of pages by adding 58 check marks
 
 Post-Click - URL is updated to '~/index.html#documentation'
 
@@ -58,8 +58,6 @@ GIVEN- The user has visited all course pages setting them to a 'completed' state
 AND- User answered Assessments with a 100% passing grade\
 WHEN- The user visits the Modal Menu  component\
 THEN- The user will see the Modal Menu  component's output zones reflect this course-completed state
-
-user visits the module-menu-doc component after completing all other course pages
 
 `Module 1` is visible
 
@@ -75,8 +73,8 @@ Module 1 footer contains\
 
 100%;'
 
-Post BS2 course completion -  Left Nav bar has all pages with a checkmark (totalling 78 toat checkmarks)
+Post BS2 course completion -  Left Nav bar has all pages with a checkmark (totalling 93 toat checkmarks)
 
 visual check -  'Completed' state
 
-<!-- /include: cypress/integration/modalMenu.js -->
+<!-- /include: cypress/integration/blacksmith/modalMenu.js -->

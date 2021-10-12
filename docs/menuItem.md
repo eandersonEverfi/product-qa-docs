@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [COM-2930](https://everfi.atlassian.net/browse/COM-2930)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/menuItem.js -->
+<!-- include: cypress/integration/blacksmith/menuItem.js -->
 
 ### COM-2930
 
@@ -40,15 +40,15 @@ drawer should have / be populated with descendants of `div`\
 GIVEN- Tab1 - on initial view of expanding drawer
 THEN- Tab1 will be active and in a visited state\
 
-tab1's content pane has 79 `li` document-activity element links
+tab1's content pane has 93 `li` document-activity element links
 
 GIVEN- User clicks tab2
 WHEN- Tab2 is visible and active\
 THEN- Tab2's contnet is visible
 
-default-state- progressionDonut_1 = 8% percent graphed
+default-state- progressionDonut_1 = 18% percent graphed
 
-default-state - progressionDonut_1 =  has 8% text
+default-state - progressionDonut_1 =  has 18% text
 
 visual check -  Menu-1 - Second Menu Tab Expanded
 
@@ -83,15 +83,13 @@ THEN- the Progression component's output zones reflect this course-completed sta
 user first completes all course content
 marking each course page as completed\
 
-user visits the Progression component after completing all other course pages
-
 user expands Menu-1 and clicks tab2
 
 Need to wait for tab2's content to be visible, before taking a snap
 
-completed-state- progressionDonut_1 = 16% percent graphed
+completed-state- progressionDonut_1 = 33% percent graphed
 
-completed-state - progressionDonut_1 =  has 8% text
+completed-state - progressionDonut_1 =  has 33% text
 
 visual check - Menu-1 -  Second Menu Tab Expanded with progression graph in completed-state
 
@@ -102,4 +100,4 @@ GIVEN- The Menu Item - Modal component page loads\
 WHEN- An Applitools visual test is engaged\
 THEN- The baseline screengrab will match the running test's snapshot
 
-<!-- /include: cypress/integration/menuItem.js -->
+<!-- /include: cypress/integration/blacksmith/menuItem.js -->

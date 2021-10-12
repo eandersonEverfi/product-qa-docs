@@ -2,7 +2,7 @@
 > Dev Implementation ticket: COM-xx  
 Type: Visual   
 
-<!-- include: cypress/integration/assessment_block_redirect.js -->
+<!-- include: cypress/integration/blacksmith/assessment_block_redirect.js -->
 
 ### COM-x1 - Redirect Assessment > Onloading of component the user will see a loading spinner
 
@@ -19,4 +19,4 @@ Within the Spinner Container is a visible loading spinner SVG
 
 visual check -  On Load user sees assessment with spinner
 
-<!-- /include: cypress/integration/assessment_block_redirect.js -->
+<!-- /include: cypress/integration/blacksmith/assessment_block_redirect.js -->

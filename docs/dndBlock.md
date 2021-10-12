@@ -2,7 +2,7 @@
 > Test Set: [ALP-286](https://everfi.atlassian.net/browse/ALP-286)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/dndBlock.js -->
+<!-- include: cypress/integration/blacksmith/dndBlock.js -->
 
 reusable function to first select a dragable and then dropping it into a drop zone
 
@@ -202,4 +202,4 @@ Veg drop zone has 0 options
 
 'Start over' button IS disabled
 
-<!-- /include: cypress/integration/dndBlock.js -->
+<!-- /include: cypress/integration/blacksmith/dndBlock.js -->

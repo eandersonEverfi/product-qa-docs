@@ -2,7 +2,7 @@
 > Test Set: [ALP-135](https://everfi.atlassian.net/browse/ALP-135)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/tab.js -->
+<!-- include: cypress/integration/blacksmith/tab.js -->
 
 ### ALP 199
 
@@ -83,4 +83,4 @@ User sees the tab's unique text content\
 
 visual check -  User is able to see the tabs content
 
-<!-- /include: cypress/integration/tab.js -->
+<!-- /include: cypress/integration/blacksmith/tab.js -->

@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [COM-3063](https://everfi.atlassian.net/browse/COM-3063)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/storyMaker.js -->
+<!-- include: cypress/integration/blacksmith/storyMaker.js -->
 
 ### COM-3063
 
@@ -108,7 +108,7 @@ User is at end-state page with expected title
 
 asserting the 'back' button is not diabled
 
-visual check -  'The two friends walk off to the lagoon.' page
+visual check -  'The two friends catch a mess of fish.' page
 
 ### COM-3063
 
@@ -169,4 +169,4 @@ assrting that there are 4 visible buttons on the page
 
 visual check - Back on the fist page
 
-<!-- /include: cypress/integration/storyMaker.js -->
+<!-- /include: cypress/integration/blacksmith/storyMaker.js -->

@@ -3,7 +3,7 @@
 > Test Set: [ALP-333](https://everfi.atlassian.net/browse/ALP-333)\
 Type: Functional, Visual     
 
-<!-- include: cypress/integration/assessment_block_with_all_correct_answers.js -->
+<!-- include: cypress/integration/blacksmith/assessment_block_with_all_correct_answers.js -->
 
 ### COM-1110
 
@@ -27,11 +27,14 @@ visual check -  After selecting radio button
 
 GIVEN: The assessment form block loads\
 WHEN: The user clicks on a radio button\
+WHEN: The user clicks on the submit button\
 THEN: The user gets its corresponding response feedback message
 
 waiting for radio button
 
 clicking radio button
+
+clicking the submit button
 
 waiting for feedback message to be visible
 
@@ -51,4 +54,4 @@ ALP-149 > Assessment Block with All Correct Answers - user is able to select an 
 \
 ALP-150 > Assessment Block with All Correct Answers - user is able to select a radio button and get its corresponding feedback message
 
-<!-- /include: cypress/integration/assessment_block_with_all_correct_answers.js -->
+<!-- /include: cypress/integration/blacksmith/assessment_block_with_all_correct_answers.js -->

@@ -2,7 +2,7 @@
 > Test Set: [ALP-119](https://everfi.atlassian.net/browse/ALP-119)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/flipcard.js -->
+<!-- include: cypress/integration/blacksmith/flipcard.js -->
 
 ### ALP-210/ALP-211
 
@@ -50,4 +50,4 @@ verifying front flipcard image assets
 
 visual check of front of flipcard (second time)
 
-<!-- /include: cypress/integration/flipcard.js -->
+<!-- /include: cypress/integration/blacksmith/flipcard.js -->

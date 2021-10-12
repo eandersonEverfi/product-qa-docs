@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [COM-1218](https://everfi.atlassian.net/browse/COM-1218)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/qa_feedback1.js -->
+<!-- include: cypress/integration/blacksmith/qa_feedback1.js -->
 
 ### COM-1218
 
@@ -34,13 +34,31 @@ waiting for known state before snap
 
 clicking on radio button 1 of 3
 
+submit button enables when user checks an answer
+
+after submission of the form -- all form options should be disabled
+
+on submit of a wrong option the retry button is shown
+
+The SUBMIT button does not exist
+
 feedback message for radio 1/3 produces the 'not correct' feedback message
 
 visual check -  User sees 'incorrect message' feedback after selecting first radio button
 
+user clicks the retry button
+
 clicking on radio button 3/3
 
 waiting for known state before snap
+
+submit button enables when user checks an answer
+
+after submission of the form -- all form options should be disabled
+
+After form submit -- the SUBMIT button should be disabled
+
+Because the user submitted a correct answer the RETRY button should not exist
 
 clicking radio 3/3 produces 'correct' feedback message
 
@@ -48,4 +66,4 @@ need to wait for SVGs so they appear in snaps
 
 visual check -  User sees 'correct message' feedback after selecting last radio button
 
-<!-- /include: cypress/integration/qa_feedback1.js -->
+<!-- /include: cypress/integration/blacksmith/qa_feedback1.js -->

@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [COM-2960](https://everfi.atlassian.net/browse/COM-2960)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/viewport_filter.js -->
+<!-- include: cypress/integration/blacksmith/viewport_filter.js -->
 
 run these test as if on a macbook 15
 1440x900\
@@ -71,4 +71,4 @@ Tablet Viewport  contains the snippet block
 
 visual check -  Tablet resolution - iPad Mini
 
-<!-- /include: cypress/integration/viewport_filter.js -->
+<!-- /include: cypress/integration/blacksmith/viewport_filter.js -->

@@ -2,7 +2,7 @@
 > Test Set: [ALP-120](https://everfi.atlassian.net/browse/ALP-120)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/form.js -->
+<!-- include: cypress/integration/blacksmith/form.js -->
 
 ### ALP 149
 
@@ -158,4 +158,4 @@ WHEN: The user then fills out all required fields with data\
 THEN: The form submits - void of any error error Required validation error messages\
 THEN: The form gets a Feedback message on successful form submit
 
-<!-- /include: cypress/integration/form.js -->
+<!-- /include: cypress/integration/blacksmith/form.js -->

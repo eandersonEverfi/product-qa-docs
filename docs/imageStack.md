@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [COM-2916](https://everfi.atlassian.net/browse/COM-2916)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/imageStack.js -->
+<!-- include: cypress/integration/blacksmith/imageStack.js -->
 
 ### run these test as if on a macbook 15
 
@@ -70,4 +70,4 @@ AND- The images are in a tablet layout
 
 visual check -  Tablet resolution - iPad Mini
 
-<!-- /include: cypress/integration/imageStack.js -->
+<!-- /include: cypress/integration/blacksmith/imageStack.js -->

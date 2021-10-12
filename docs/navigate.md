@@ -2,7 +2,7 @@
 > Test Set: [ALP-128](https://everfi.atlassian.net/browse/ALP-128)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/navigate.js -->
+<!-- include: cypress/integration/blacksmith/navigate.js -->
 
 ### ALP-149
 
@@ -33,7 +33,21 @@ waiting for the assessment questions to be visiable
 ### Radio button 1/3 tests
 
 Radio button is in an active state\
-Clicking radio button produces the `failureHeader` feedback message response
+Submit button is disabled by default\
+Clicking radio button produces the `failureHeader` feedback message response\
+Since 1/3 option is an incorrect option after submission the Retry button is shown
+
+verifying the submit button is diabled by default
+
+verifying that radiobutton 1/3 is indeed checked
+
+verifying the submit button is not disabled
+
+the Retry should  exist and not be disabled
+
+after submission of the form -- all form options should be disabled
+
+After submit of an incorrect option the submit button does not exist
 
 After clicking radio button 1/3
 assesment button is still in a disabled state\
@@ -43,12 +57,19 @@ visual check -  After Select - Option A
 
 ### Radio button 2/3 tests
 
-Radio button is in an active state\
 Clicking radio button produces the `failureHeader` feedback message response
+
+Clicking the Retry button
 
 After clicking radio button 2/3
 assesment button is still in a disabled state\
 forward button is still in a disabled state
+
+the Retry should  exist and not be disabled
+
+After submit of an incorrect option the submit button does not exist
+
+after submission of the form -- all form options should be disabled
 
 visual check -  After Select - Option B
 
@@ -57,9 +78,17 @@ visual check -  After Select - Option B
 Radio button is in an active state\
 Clicking radio button produces the `successHeader` feedback message response
 
+Clicking the Retry button
+
 After clicking radio button 3/3
 assesment button converts to an active state\
 forward button converts to an active state
+
+because the user submitted a correct optyion the Retry should  NOT exist
+
+after submission of the form -- all form options should be disabled
+
+Because button 3/3 is a correct option assesmentBtn is active
 
 visual check -  After Select - Option C
 
@@ -136,4 +165,4 @@ submitting Assessment form with Option 'C' selected
 in a deactivated-state, by default - user has to submit the Assessment Form first\
 Clicking (active-sate) takes the user to - ordering-doc page
 
-<!-- /include: cypress/integration/navigate.js -->
+<!-- /include: cypress/integration/blacksmith/navigate.js -->

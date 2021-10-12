@@ -2,7 +2,7 @@
 > Test Set: [ALP-223](https://everfi.atlassian.net/browse/ALP-223)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/rank.js -->
+<!-- include: cypress/integration/blacksmith/rank.js -->
 
 ### ALP-224 / ALP-226
 
@@ -84,9 +84,8 @@ only one check mark is visible
 
 visual check - Auto-submit - Rank component -  After incorrect-sort
 
-### TBD
+'Auto-Submit' - user fixes incorrect sourt
 
- Auto-submit - After correcting incorrect-sort\
-I can not drag the banana piece to a new location because has CSS `pointer-events: none`
+visual check -  'Auto-Submit' Rank component - After correcting incorrect-sort
 
-<!-- /include: cypress/integration/rank.js -->
+<!-- /include: cypress/integration/blacksmith/rank.js -->

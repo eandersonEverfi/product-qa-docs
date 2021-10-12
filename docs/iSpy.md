@@ -2,7 +2,7 @@
 > Test Set: [ALP-122](https://everfi.atlassian.net/browse/ALP-122)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/iSpy.js -->
+<!-- include: cypress/integration/blacksmith/iSpy.js -->
 
 ### ALP-129
 
@@ -103,9 +103,13 @@ Verify - User stays on the iSpy component page
 GIVEN:The user has clicked on all hotspots\
 THEN:All hotspots are set to a completed state
 
+User clicks iSpyContainer2 hotspot buttons
+
+User clicks iSpyContainer1 hotspot buttons
+
 visual check - post clicking on all hotspots - NEXT button is in the active state
 
 GIVEN:The user clicks on an active-state NEXT button\
 THEN:The user is taken to a new component page
 
-<!-- /include: cypress/integration/iSpy.js -->
+<!-- /include: cypress/integration/blacksmith/iSpy.js -->

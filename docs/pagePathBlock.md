@@ -2,7 +2,7 @@
 > Test Set: [ALP-293](https://everfi.atlassian.net/browse/ALP-293)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/pagePathBlock.js -->
+<!-- include: cypress/integration/blacksmith/pagePathBlock.js -->
 
 ALP-x1
 GIVEN: The page-path block component loads\
@@ -57,4 +57,4 @@ compoent is marked as compelte in the DOM
 
 verify - the NEXT button is in an active state
 
-<!-- /include: cypress/integration/pagePathBlock.js -->
+<!-- /include: cypress/integration/blacksmith/pagePathBlock.js -->

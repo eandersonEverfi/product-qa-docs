@@ -2,7 +2,7 @@
 > Test Set: [ALP-133](https://everfi.atlassian.net/browse/ALP-133)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/slider.js -->
+<!-- include: cypress/integration/blacksmith/slider.js -->
 
 ### ALP 173
 
@@ -64,4 +64,4 @@ The MINUS button converts to a 'disabled' state once reaching this lowest level 
 
 visual check -  User reaches to minimum input available
 
-<!-- /include: cypress/integration/slider.js -->
+<!-- /include: cypress/integration/blacksmith/slider.js -->

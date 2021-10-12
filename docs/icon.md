@@ -2,7 +2,7 @@
 > Test Set: [ALP-123](https://everfi.atlassian.net/browse/ALP-123)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/icon.js -->
+<!-- include: cypress/integration/blacksmith/icon.js -->
 
 ### ALP-199
 
@@ -69,4 +69,4 @@ Visual check - User sees Tab 3's unique content
 
 Verification - Tab 3 - user sees unique copy content
 
-<!-- /include: cypress/integration/icon.js -->
+<!-- /include: cypress/integration/blacksmith/icon.js -->

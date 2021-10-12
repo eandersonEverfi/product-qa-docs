@@ -2,7 +2,7 @@
 > Test Set: [ALP-232](https://everfi.atlassian.net/browse/ALP-232)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/resource_block.js -->
+<!-- include: cypress/integration/blacksmith/resource_block.js -->
 
 ### ALP-132
 
@@ -34,7 +34,7 @@ THEN- The modal will close
 
 verifying base component page content is loaded
 
-clicking on the resouce modal's link
+clicking on the resource modal's link
 
 once modal is verified as open
 User can see the modal content\
@@ -72,4 +72,4 @@ Once modal has expanded
 User visits resource link\
 Verifies the resource link is the correct page
 
-<!-- /include: cypress/integration/resource_block.js -->
+<!-- /include: cypress/integration/blacksmith/resource_block.js -->

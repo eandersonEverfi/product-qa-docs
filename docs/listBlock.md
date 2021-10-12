@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [SMITH-408](https://everfi.atlassian.net/browse/SMITH-408)    
 Type: Visual  
 
-<!-- include: cypress/integration/listBlock.js -->
+<!-- include: cypress/integration/blacksmith/listBlock.js -->
 
 ### SMITH-408
 
@@ -17,4 +17,4 @@ waiting for all content blocks
 
 visual verification test
 
-<!-- /include: cypress/integration/listBlock.js -->
+<!-- /include: cypress/integration/blacksmith/listBlock.js -->

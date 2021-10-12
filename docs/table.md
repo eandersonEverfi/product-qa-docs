@@ -2,7 +2,7 @@
 > Test Set: [ALP-297](https://everfi.atlassian.net/browse/ALP-297)    
 Type: Visual
 
-<!-- include: cypress/integration/table.js -->
+<!-- include: cypress/integration/blacksmith/table.js -->
 
 ### ALP-x1
 
@@ -13,4 +13,4 @@ THEN: The baseline screengrab will match the running test's snapshot
 
 visual verification test - Page Container
 
-<!-- /include: cypress/integration/table.js -->
+<!-- /include: cypress/integration/blacksmith/table.js -->

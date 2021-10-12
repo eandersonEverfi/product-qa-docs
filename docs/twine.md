@@ -2,7 +2,7 @@
 > Test Set: [ALP-300](https://everfi.atlassian.net/browse/ALP-300)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/twine.js -->
+<!-- include: cypress/integration/blacksmith/twine.js -->
 
 ### ALP-x1
 
@@ -51,10 +51,25 @@ THEN- The lottie responds with transform animations
 
 waiting for slider controll and  mallMorph container
 
-visual check -  Default state of lottie
+visual check -  Default state of slider-lottie
 
 user slides slide controll to val = `10`
 
-visual check -  state of lottie post slide input
+visual check -  state of slider-lottie post slide input
 
-<!-- /include: cypress/integration/twine.js -->
+### COM-5313 
+
+twine - Twine using scrollTrigger
+GIVEN- The Twine scrollTrigger component has loaded\
+WHEN- when user scroll to a certain point of the page\
+THEN- Scroll-triggered animations are set to trigger
+
+waiting for Scroll-lottie  clapperSnap container
+
+waiting for Scroll-lottie  mallMorph container
+
+visual check -  Default state of Scroll-lottie
+
+visual check -  state of lottie post
+
+<!-- /include: cypress/integration/blacksmith/twine.js -->

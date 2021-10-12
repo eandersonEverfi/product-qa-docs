@@ -2,7 +2,7 @@
 > Test Set: [ALP-216](https://everfi.atlassian.net/browse/ALP-216)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/iFrame.js -->
+<!-- include: cypress/integration/blacksmith/iFrame.js -->
 
 ### ALP-218
 
@@ -29,9 +29,9 @@ verifying that the compopnent page has the expected header text
 
 verifying that iFrame is loaded and pointing to to the everfi homepage
 
-verifying that the Hamburger menu button is visible within the iFrame
+verifying that the Search box is visible within the iFrame
 
-User clicks the Hamburger menu button
+User clicks the Search box
 
 visual check post hamburger menu button\
 verifying that the user sees the hamburger menue is expanded\
@@ -51,8 +51,6 @@ verifying that the compopnent page has the expected header text
 
 verifying that iFrame is loaded
 
-clicking the  'Open in new Window' button
+clicking the  'Open in new Window' button user is taken to the expected page
 
-URL that is associated with this button is loaded
-
-<!-- /include: cypress/integration/iFrame.js -->
+<!-- /include: cypress/integration/blacksmith/iFrame.js -->

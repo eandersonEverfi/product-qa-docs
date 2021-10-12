@@ -2,7 +2,7 @@
 > Test Set: [ALP-130](https://everfi.atlassian.net/browse/ALP-130)    
 Type: Functional, Visual
 
-<!-- include: cypress/integration/qa_feedback2.js -->
+<!-- include: cypress/integration/blacksmith/qa_feedback2.js -->
 
 ### ALP 149
 
@@ -17,9 +17,7 @@ visual check -  Before selecting the correct answer
 
 user checks radio button 1/3
 
-user verifies that radio button 1/3 has class 'choices__label--checked'
-
-visual check -  Radio Button was selected
+user verifies that radio button 1/3 is checked
 
 ### ALP 150
 
@@ -32,7 +30,9 @@ waiting for defualt state of the component
 
 user checks radio button 1/3
 
-user verifies that radio button 1/3 has class 'choices__label--checked'
+user verifies that radio button 1/3 is checked
+
+submit button enables when user checks an answer
 
 feedback message contains expected text
 
@@ -42,4 +42,4 @@ qa feedback container has thumbs-up svg
 
 visual check -  User sees Correct message after selecting first radio button
 
-<!-- /include: cypress/integration/qa_feedback2.js -->
+<!-- /include: cypress/integration/blacksmith/qa_feedback2.js -->

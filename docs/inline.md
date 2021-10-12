@@ -2,7 +2,7 @@
 > Test Set: [ALP-124](https://everfi.atlassian.net/browse/ALP-124)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/inline.js -->
+<!-- include: cypress/integration/blacksmith/inline.js -->
 
 ### ALP-203
 
@@ -111,4 +111,4 @@ verification - user sees the text they typed = within the text field itself
 
 visual check post tying text into text field
 
-<!-- /include: cypress/integration/inline.js -->
+<!-- /include: cypress/integration/blacksmith/inline.js -->

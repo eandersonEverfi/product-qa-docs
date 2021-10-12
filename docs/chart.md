@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [com-2827](https://everfi.atlassian.net/browse/com-2827)  
 Type: Functional, Visual    
 
-<!-- include: cypress/integration/chart.js -->
+<!-- include: cypress/integration/blacksmith/chart.js -->
 
 Chart Component
 
@@ -30,4 +30,4 @@ GIVEN: User visits an indivisual chart\
 WHEN: User clicks the provided set of input buttons\
 THEN: The interacted with chart displays new output data on the chart
 
-<!-- /include: cypress/integration/chart.js -->
+<!-- /include: cypress/integration/blacksmith/chart.js -->

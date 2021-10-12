@@ -2,7 +2,7 @@
 > Test Set: [ALP-126](https://everfi.atlassian.net/browse/ALP-126)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/link.js -->
+<!-- include: cypress/integration/blacksmith/link.js -->
 
 ### ALP-214
 
@@ -106,4 +106,4 @@ THEN: The suer is taken to the that clicked on links expected destination
 
 verifying that link 1 loads - 'Warp to Examples Module'
 
-<!-- /include: cypress/integration/link.js -->
+<!-- /include: cypress/integration/blacksmith/link.js -->

@@ -2,7 +2,7 @@
 > Dev implemntation ticket: [COM-2354](https://everfi.atlassian.net/browse/COM-2354)  
 Type: Visual
 
-<!-- include: cypress/integration/calloutCard.js -->
+<!-- include: cypress/integration/blacksmith/calloutCard.js -->
 
 ### COM-2354
 
@@ -17,4 +17,4 @@ waiting for SVG assets
 
 visual verification test
 
-<!-- /include: cypress/integration/calloutCard.js -->
+<!-- /include: cypress/integration/blacksmith/calloutCard.js -->

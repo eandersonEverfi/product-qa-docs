@@ -2,7 +2,7 @@
 > Test Set: [ALP-121](https://everfi.atlassian.net/browse/ALP-121)    
 Type: Functional, Visual  
 
-<!-- include: cypress/integration/horizontal_scroll.js -->
+<!-- include: cypress/integration/blacksmith/horizontal_scroll.js -->
 
 ### ALP-212
 
@@ -40,7 +40,7 @@ The right edge button will be visible\
 The left edge button will not be visible
 
 The ebedded content has cards that have the following copy
-(1) Card Title\
+(1) Card Title
 (2) Learn More
 
 Verification - there are a total of 4 cards within the scrollable area
@@ -67,4 +67,4 @@ THEN:The user can see a modal header and x-close button
 
 visual verification of open modal - post clikcing the Learn More link
 
-<!-- /include: cypress/integration/horizontal_scroll.js -->
+<!-- /include: cypress/integration/blacksmith/horizontal_scroll.js -->
